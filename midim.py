@@ -22,7 +22,7 @@ print (args.fuzz)
 
 # open midi ports, etc.
 #port_index = out_ports.index('Bome MIDI Translator 1 2')
-port = mido.open_output("Bome MIDI Translator 1 2")
+port = mido.open_output("Bome MIDI Translator 1 1")
 
 
 def m(cc, val):
